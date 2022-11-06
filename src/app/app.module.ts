@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HideComponent } from './hide/hide.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HideComponent
   ],
   imports: [
     BrowserModule,
