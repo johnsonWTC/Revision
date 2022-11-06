@@ -12,6 +12,19 @@ export class HideComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  divValue = "hi from the class"
+  divValue = "hi from the class";
+  innerText = "hello from innerText";
+  hideTextValue = false;
+
+  HideText(){
+    if(this.hideTextValue){
+      this.hideTextValue = false;
+    }
+    else{
+      
+      this.hideTextValue = true;
+    }
+  }
+
 
 }

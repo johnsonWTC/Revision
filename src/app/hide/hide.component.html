@@ -1,1 +1,7 @@
-<p>hide works! {{divValue}}</p>
+
+<div [hidden]="hideTextValue">
+    <p [innerText]="innerText">hide works! {{divValue}}</p>
+
+</div>
+
+<button (click)="HideText()">Hide</button>
