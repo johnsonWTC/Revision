@@ -19,6 +19,7 @@ export class HideComponent implements OnInit {
   HideText(){
     if(this.hideTextValue){
       this.hideTextValue = false;
+      this.innerText = "Showing text"
     }
     else{
       
